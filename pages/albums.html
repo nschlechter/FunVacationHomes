@@ -1,0 +1,103 @@
+<!doctype html>
+<!-- based off of mystery1.html -->
+<!-- Picture Albums with Mouseover pics -->
+<!-- =============================================== -->
+ 
+<html>
+ <head>
+   <title>Photo Albums</title>
+   
+   <style>
+    body {
+      text-align: center;
+      background: url("../images/background.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+   
+   <style type="text/css"> 
+ 
+ #navbar ul { 
+	margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li {  
+	display: inline; 
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#navbar ul li a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+ 
+
+</style> 
+   
+ </head>
+
+ <body>
+ <img src="../images/cover.png">
+ 
+   <div style="text-align: left">
+     <img src="../images/BlackButteRanch/front.png" alt="Black Butte Ranch" height="300" width="360";
+          onmouseover="this.src='../images/BlackButteRanch/back.png';"
+          onmouseout="this.src='../images/BlackButteRanch/front.png';">
+     <p>
+       Black Butte Ranch.
+     </p>
+   </div>
+   <div style="text-align: center">
+     <img src="../images/Sunriver/front.png" alt="Sunriver Resort" height="300" width="360";
+          onmouseover="this.src='../images/Sunriver/back.png';"
+          onmouseout="this.src='../images/Sunriver/front.png';">
+     <p>
+       Sunriver Resort.
+     </p>
+   </div>
+   <div style="text-align: right;">
+     <img src="../images/RockawayBeach/front.png" alt="Rockaway Beach" height="300" width="360";
+          onmouseover="this.src='../images/RockawayBeach/upview.png';"
+          onmouseout="this.src='../images/RockawayBeach/back.png';">
+     <p>
+       Rockaway Beach.
+     </p>
+   </div>
+   
+   <div id="navbar"> 
+  <ul> 
+	<li><a href="#">LinkHere</a></li> 
+	<li><a href="#">LinkHere</a></li> 
+	<li><a href="#">LinkHere</a></li> 
+	<li><a href="#">LinkHere</a></li> 
+	<li><a href="#">LinkHere</a></li> 
+  </ul> 
+</div>
+   
+ </body>
+</html>
