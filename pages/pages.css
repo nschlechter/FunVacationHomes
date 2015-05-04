@@ -4,6 +4,7 @@ body {
   background-image: url("../images/bg.png");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: #594F4F;
   font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
   font-size: 125%;
