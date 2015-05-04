@@ -19,6 +19,7 @@ body {
 	position:relative;
 }
 
+/* Used for the paragraph sections within the white space */
 #par { 
 margin: 0; 
 padding: 0; 
@@ -28,8 +29,8 @@ height: 100%;
 margin-left: 3%;
 } 
 
+/* Main body section */
 #section {
-
 padding: 2%;
 margin: 7%;
 background-color: #FFFFFF;
@@ -47,10 +48,12 @@ background-color: #FFFFFF;
 	
 	} 
  
+ /* navbar category buttin list */
 #navbar ul li {  
 	display: inline; 
 	} 
  
+ /* individual buttons with background/hover colors */
 #navbar ul li a { 
 	text-decoration: none; 
 	padding: .5em 3em; 
@@ -63,12 +66,13 @@ background-color: #FFFFFF;
 	background-color: #79BD9A; 
 	}
 
+/* main title headers */
 #header {
 	text-align: center;
 	padding: 7px;
 }
 
-/* COLUMN 1 */
+/* COLUMN 1 -- left side with slideshow/go-to buttons */
 #col1 ul { 
 	margin: 0; 
 	padding: 0; 
@@ -88,7 +92,8 @@ background-color: #FFFFFF;
 #col1 ul li a:hover { 
 	color: #FFFFFF; 
 	} 
-	
+
+/* container for description/specs */	
 #container {
 	width: 95%;
 	margin: 0 0 750px 50px; /* top right bottom left */
