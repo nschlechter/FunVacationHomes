@@ -14,17 +14,12 @@ body {
   padding-top: 35px;
 }
 
-#container {
-	min-height:100%;
-	position:relative;
-}
-
 /* Used for the paragraph sections within the white space */
 #par { 
 margin: 0; 
 padding: 0; 
 list-style-type: none; 
-padding-bottom:5%; /* height of footer */
+padding-bottom: 50px; /* height of footer */
 height: 100%;
 margin-left: 3%;
 } 
@@ -93,31 +88,6 @@ background-color: #FFFFFF;
 	color: #FFFFFF; 
 	} 
 
-/* container for description/specs */	
-#container {
-	width: 95%;
-	margin: 0 0 750px 50px; /* top right bottom left */
-	padding: 0;
- }
-#container #col1 {
-	width: 30%;
-	float: left;
- }
-#container #col2outer {
-	width: 63%;
-	float: right;
-	margin-left:4%;
-	padding: 0;
- }
-#col2outer #col2mid {
-	width: 30%;
-	float: left;
- }
-#col2outer #col2side {
-	width: 35%;
-	margin-right: 15%;
-	float: right;
- }
 
 #footer {
 		position:relative;
