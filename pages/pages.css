@@ -27,8 +27,9 @@ margin-left: 3%;
 /* Main body section */
 #section {
 padding: 2%;
-margin: 7%;
+margin: 6%;
 background-color: #FFFFFF;
+width: 80%;
 }
 
 /* navigation bar */
