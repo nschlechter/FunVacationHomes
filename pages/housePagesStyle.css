@@ -1,0 +1,124 @@
+﻿html, body {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  min-height: 100%;
+  max-width: 100%;
+  min-width: 1200px;
+}
+
+body {
+  text-align: center;
+  background-image: url("../images/copy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #594F4F;
+  font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+  font-size: 125%;
+  padding:5px;
+}
+
+/* navbar category buttin list */
+#navbar ul li {  
+  display: inline; 
+  margin-bottom: 20px;
+  } 
+ 
+ /* individual buttons with background/hover colors */
+#navbar ul li a { 
+  text-decoration: none; 
+  padding: .5em 3em;
+  color: #594F4F; 
+  background-color: #ffffff; 
+  } 
+ 
+#navbar ul li a:hover { 
+  color: #000; 
+  background-color: #79BD9A; 
+  }
+
+/* main title headers */
+#header {
+  text-align: center;
+}
+
+/* Section for general overview, pic slideshow */
+.overview {
+  overflow: hidden;
+  width: 100%;
+}
+
+.left {
+  float: left;
+  max-width: 30%;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
+.right {
+  float: left;
+  max-width: 50%;
+  margin-left: 30px;
+}
+
+/* White background section for photos, details, etc. */
+.white-section {
+  background-color: #FFFFFF;
+  text-align: center;
+  text-indent: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* page navigation to sections (i.e. photos, rates, etc.) */
+#subheaders ul { 
+	list-style-type: none; 
+	margin-top: 40px;
+	margin-bottom: 10px;
+	} 
+
+
+#subheaders ul li a { 
+	text-decoration: none; 
+	display: block;
+	padding: .5em 3em; 
+	color: #594F4F;
+	font-weight: bold;
+	} 
+ 
+#subheaders ul li a:hover { 
+	color: #000000; 
+	}
+
+#description {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    column-width: 100px;
+    column-count: 3;
+    column-gap: 20px;
+    -moz-column-fill: auto; /* Firefox */
+    column-fill: auto;
+
+    margin-bottom: 50px;
+}
+
+#description dl dt {
+    font-weight: bold;
+    margin: 3px;
+    margin-top: 15px;
+}
+
+#description dl dd {
+    margin-bottom: 7px;
+}
+
+.back-to-top a {
+  margin: 20px;
+  color: #000000;
+  text-decoration: none;
+}
