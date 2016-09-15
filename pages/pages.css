@@ -26,10 +26,11 @@ margin-left: 3%;
 
 /* Main body section */
 #section {
-padding: 2%;
-margin: 6%;
+padding: 10px;
 background-color: #FFFFFF;
 width: 80%;
+margin: 10%;
+margin-top: 0%;
 }
 
 /* navigation bar */
